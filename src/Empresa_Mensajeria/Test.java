@@ -16,30 +16,34 @@ public class Test {
         //Crear Objeto Empresa
         EmpresaMensajeria em = new EmpresaMensajeria("Papaya");
 
+        //Ingresar los paquetes a la empresaMensajeria
         em.agregarPaquete(p1);
         em.agregarPaquete(p2);
         em.agregarPaquete(p3);
 
         System.out.println();
 
+        //Ingresar los repartidores a la empresaMensajeria
         em.agregarRepartidor(r1);
         em.agregarRepartidor(r2);
         em.agregarRepartidor(r3);
 
         System.out.println();
 
+        //Asignar un paquete al repartidor disponible
         em.asignarPaquete(p1.getId());
 
         System.out.println();
 
+        //Entregar paquete, cambiar estado del paquete y repartidor
         em.entregarPaquete(p1.getId());
 
         System.out.println();
-
+        //Listado de paquetes de la empresaMensajeria
         em.imprimirPaquetes();
 
         System.out.println();
-
+        //Listado de repartidores de la empresaMensajeria
         em.imprimirRepartidores();
 
     }
