@@ -13,6 +13,7 @@ public class Ejemplar {
         this.precio = precio;
     }
 
+
     public void insertarEjemplar(){
         //TODO
     }

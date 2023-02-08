@@ -13,6 +13,12 @@ public class Cabecera extends Alquiler_pelicula{
         fecha_entrega = fecha_entrega;
     }
 
+    public Cabecera(int numero, Cliente cliente, LocalDate fecha_entrega) {
+        super(numero);
+        this.cliente = cliente;
+        this.fecha_entrega = fecha_entrega;
+    }
+
     public void insertarCabecera(){
         //TODO
     }

@@ -9,6 +9,11 @@ public class Cuerpo extends Alquiler_pelicula{
         this.pelicula = pelicula;
     }
 
+    public Cuerpo(int numero, String pelicula) {
+        super(numero);
+        this.pelicula = pelicula;
+    }
+
     public void insertarCuerpo(){
         //TODO
     }
