@@ -6,6 +6,6 @@ public interface BaseDeDatos {
 
     public abstract void actualizar();
 
-    public abstract void eliminar(String n);
+    public abstract void eliminar(Persona p);
 
 }

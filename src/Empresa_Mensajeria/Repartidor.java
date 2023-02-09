@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 /**
  * Clase Repartidor
- *
  * @version 1.0
  * @author Tito M
  */

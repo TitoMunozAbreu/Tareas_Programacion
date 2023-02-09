@@ -2,18 +2,37 @@ package Empresa;
 
 import java.util.Objects;
 
+/**
+ * Clase abstracta Persona
+ * @version 1.0
+ * @author Tito M
+ */
 public abstract class Persona  {
     private String nombre;
     private String apellido;
     private int edad;
 
+    /**
+     * Constructor vacio
+     */
     public Persona(){}
 
+    /**
+     * Constructor Persona, con 3 parametros
+     * @param nombre
+     * @param apellido
+     * @param edad
+     */
     public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
     }
+
+    /**
+     * Metodo Abstracto
+     * @return
+     */
      public abstract String mostrarInformacion();
 
     public String getNombre() {
@@ -40,6 +59,11 @@ public abstract class Persona  {
         this.edad = edad;
     }
 
+    /**
+     * Metodo equals
+     * @param obj
+     * @return
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

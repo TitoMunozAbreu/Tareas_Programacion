@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria.">
-      <change afterPath="$PROJECT_DIR$/src/Empresa/BDDpersonas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/BaseDeDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Empresa/TipoCliente.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated: Tarea Empresa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/BDDpersonas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/BDDpersonas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/BaseDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/BaseDeDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa_Mensajeria/Repartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa_Mensajeria/Repartidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,9 @@
       <workItem from="1675689109809" duration="217000" />
       <workItem from="1675702692085" duration="44000" />
       <workItem from="1675801783078" duration="13469000" />
-      <workItem from="1675928483760" duration="9567000" />
+      <workItem from="1675928483760" duration="10289000" />
+      <workItem from="1675944251684" duration="38000" />
+      <workItem from="1675957910992" duration="3444000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675933854260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated: Tarea Empresa">
+      <created>1675938156398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675938156398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="Updated: Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
+    <MESSAGE value="Updated: Tarea Empresa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated: Tarea Empresa" />
   </component>
 </project>
