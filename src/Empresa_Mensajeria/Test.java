@@ -21,30 +21,32 @@ public class Test {
         em.agregarPaquete(p2);
         em.agregarPaquete(p3);
 
-        System.out.println();
-
         //Ingresar los repartidores a la empresaMensajeria
         em.agregarRepartidor(r1);
         em.agregarRepartidor(r2);
         em.agregarRepartidor(r3);
 
-        System.out.println();
-
         //Asignar un paquete al repartidor disponible
         em.asignarPaquete(p1.getId());
+        //em.asignarPaquete(p2.getId());
+        //em.asignarPaquete(p3.getId());
+        //em.asignarPaquete(p3.getId());
 
-        System.out.println();
+
 
         //Entregar paquete, cambiar estado del paquete y repartidor
         em.entregarPaquete(p1.getId());
+       em.entregarPaquete(p1.getId());
+ /*
 
-        System.out.println();
         //Listado de paquetes de la empresaMensajeria
         em.imprimirPaquetes();
 
-        System.out.println();
+
         //Listado de repartidores de la empresaMensajeria
         em.imprimirRepartidores();
+
+         */
 
     }
 }

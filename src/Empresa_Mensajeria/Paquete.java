@@ -12,7 +12,7 @@ public class Paquete {
     private double peso;
     private double costo;
     EstadoEntrega entrega;
-    private int id;
+    private int id = 1;
 
     /**
      * Constructor vacio

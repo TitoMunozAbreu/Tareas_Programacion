@@ -72,22 +72,19 @@ public class Repartidor {
      * @param id
      * @return Devuelve los datos de un paquete
      */
-    public String getPaquete(int id) {
-        //inicializar un string vacio
-        String r = "";
-
+    public boolean isPaquete(int id) {
+        //inicializar variable
+        boolean trueFalse = false;
         //recorrer el array de paquetes
         for(Paquete p:paquetes){
             //comprobar que el paquete existe en el arrays de paquetes
             if(p.getId() == id){
                 //almacenar los datos del paquete en la variable
-                r = p.toString();
-            }else{
-                //en caso que no exista el paquete en el arrays de paquete
-                r = "El paquete id:  " + id + "no se encuentre asignado a este repartidor";
+                trueFalse = true;
+                break;
             }
         }
-        return r;
+        return trueFalse;
     }
 
     /**
@@ -109,7 +106,42 @@ public class Repartidor {
      */
     public void agegarPaquete(Paquete p) {
         this.paquetes.add(p);
-        System.out.println("** Paquete asignado al repartidor **");
+
+        System.out.println("** Paquete asignado al repartidor **\n");
+    }
+
+    /**
+     * METODO isLimitePaquetes
+     * @return True o False
+     * Contador para conocer la cantidad de paquetes agregados al repartidor
+     */
+    public boolean isLimitePaquetes(){
+        boolean trueFalse = false;
+        int contador = 0;
+
+        for(Paquete p:paquetes){
+            contador++;
+        }
+        if(contador == 3){
+            this.disponibilidad = EstadoDisponibilidad.NO_DISPONIBLE;
+            System.out.println(" ¡Repartidor: " + this.getNombre() + " NO disponible!\n");
+            trueFalse = true;
+        }else {
+            this.disponibilidad = EstadoDisponibilidad.DISPONIBLE;
+        }
+
+        return trueFalse;
+    }
+
+    public void eliminarPaquete(int id){
+        for (int i = 0; i < paquetes.size(); i++) {
+            if(paquetes.get(i).getId() == id){
+                paquetes.remove(i);
+                System.out.println("Paquete #"+ id +
+                        " eliminado de la lista de paquetes del repartidor \n");
+                break;
+            }
+        }
     }
 
     @Override

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated: Tarea de Empresa Mensajeria">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa_Mensajeria/EmpresaMensajeria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa_Mensajeria/EmpresaMensajeria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa_Mensajeria/Paquete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa_Mensajeria/Paquete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Empresa_Mensajeria/Repartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa_Mensajeria/Repartidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Empresa_Mensajeria/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Empresa_Mensajeria/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/34618/IdeaProjects/Tareas_Programacion/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/34618/IdeaProjects/Tareas_Programacion/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
@@ -105,7 +108,8 @@
       <workItem from="1675683043819" duration="3568000" />
       <workItem from="1675689109809" duration="217000" />
       <workItem from="1675702692085" duration="44000" />
-      <workItem from="1675801783078" duration="10897000" />
+      <workItem from="1675801783078" duration="13469000" />
+      <workItem from="1675928483760" duration="5229000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -142,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675856138809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria">
+      <created>1675857908794</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675857908794</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +174,7 @@
     <MESSAGE value="Updated package BilleteOculto and Biblioteca" />
     <MESSAGE value="Updated: Tarea diagrama de clases VideoClub" />
     <MESSAGE value="Updated: Tarea de Empresa Mensajeria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated: Tarea de Empresa Mensajeria" />
+    <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
   </component>
 </project>
