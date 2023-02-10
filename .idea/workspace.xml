@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases">
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/DataBase/JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Vehicle.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods.">
+      <change afterPath="$PROJECT_DIR$/src/Banda_Rock/Banda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banda_Rock/Disponibilidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banda_Rock/Instrumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banda_Rock/Musico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banda_Rock/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/VehiclesOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +30,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Banda.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Disponibilidad.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Instrumento.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Musico.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Test.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Biblioteca/Libro.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Empresa/BDDpersonas.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Empresa/BaseDeDatos.java" root0="SKIP_INSPECTION" />
@@ -80,7 +83,20 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Empresa.Test">
+  <component name="RunManager" selected="Application.Banda_Rock.Test">
+    <configuration name="Banda_Rock.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Banda_Rock.Test" />
+      <module name="Tareas_Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Banda_Rock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BilleteOculto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BilleteOculto.BilleteOculto" />
       <module name="Tareas_Programacion" />
@@ -122,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Banda_Rock.Test" />
         <item itemvalue="Application.Empresa.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BilleteOculto" />
@@ -144,7 +161,9 @@
       <workItem from="1675928483760" duration="10289000" />
       <workItem from="1675944251684" duration="38000" />
       <workItem from="1675957910992" duration="3523000" />
-      <workItem from="1675967868962" duration="5307000" />
+      <workItem from="1675967868962" duration="7099000" />
+      <workItem from="1676014378459" duration="15000" />
+      <workItem from="1676014523120" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -209,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675961410822</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods.">
+      <created>1675973631818</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675973631818</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +260,7 @@
     <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
     <MESSAGE value="Updated: Tarea Empresa" />
     <MESSAGE value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
+    <MESSAGE value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
   </component>
 </project>
