@@ -29,6 +29,11 @@ public class Test {
 
         System.out.println(vuelo.getOrigen());
 
+        vuelo.agregarPasajeros(pasajero1);
+        vuelo.agregarPasajeros(pasajero2);
+        vuelo.agregarPasajeros(pasajero3);
+
+
 
 
     }

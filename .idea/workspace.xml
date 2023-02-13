@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Examen Prueba 6: Banda de Rock.">
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Azafato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Idioma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Pasajero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Piloto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Rango_Piloto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Trabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aeropuerto/Vuelos/Vuelo.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea Aeropuerto">
       <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Test/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/VehiclesOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Motorcycle.java" afterDir="false" />
@@ -200,7 +190,7 @@
       <workItem from="1676014523120" duration="4059000" />
       <workItem from="1676020147240" duration="292000" />
       <workItem from="1676029536966" duration="1816000" />
-      <workItem from="1676285320844" duration="8837000" />
+      <workItem from="1676285320844" duration="9130000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -279,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676018040810</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tarea Aeropuerto">
+      <created>1676294300643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676294300643</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tarea Aeropuerto">
+      <created>1676294423582</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676294423582</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +310,7 @@
     <MESSAGE value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
     <MESSAGE value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
     <MESSAGE value="Examen Prueba 6: Banda de Rock." />
-    <option name="LAST_COMMIT_MESSAGE" value="Examen Prueba 6: Banda de Rock." />
+    <MESSAGE value="Tarea Aeropuerto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea Aeropuerto" />
   </component>
 </project>
