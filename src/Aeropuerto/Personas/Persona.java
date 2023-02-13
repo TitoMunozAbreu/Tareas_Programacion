@@ -49,9 +49,9 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Nombre =" + this.getNombre() + "\n" +
+        return "Nombre = " + this.getNombre() + "\n" +
                 "Apellidos = " + this.getApellidos() + "\n" +
                 "DNI = " + this.getDNI() + "\n" +
-                "Email = " + this.getEmail() + "\n";
+                "Email = " + this.getEmail();
     }
 }

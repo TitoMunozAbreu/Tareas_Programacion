@@ -30,12 +30,12 @@ public class Vuelo {
 
     public void agregarPasajeros(Pasajero pasajero){
         pasajeros.add(pasajero);
-        System.out.println("** Pasajero agregado al vuelo **");
+        System.out.println("** Pasajero agregado al vuelo **\n");
     }
 
-    public String tiempoVuelo(LocalTime t1, LocalTime t2){
-        long tiempoVuelo = Duration.between(t1,t2).toHours();
-        return tiempoVuelo + " ";
+    public String tiempoVuelo(){
+        long tiempoVuelo = Duration.between(this.getTimeOrigen(),this.getTimeLlegada()).toHours();
+        return tiempoVuelo + " horas.";
     }
 
     public String getOrigen() {
@@ -88,11 +88,11 @@ public class Vuelo {
 
     @Override
     public String toString() {
-        return "Vuelo" + "\n" +
+        return "Vuelo: " + "\n" +
                 "Origen = " + this.getOrigen() + "\n" +
                 "Destino = " + this.getDestino() + "\n" +
-                "TiempoVuelo = " + tiempoVuelo(this.getTimeOrigen(),this.getTimeLlegada()) + "\n" +
-                "Piloto = " + this.getPiloto() + "\n" +
+                "TiempoVuelo = " + tiempoVuelo() + "\n" +
+                "Piloto = " + this.getPiloto().getNombre() + "\n" +
                 "Pasajeros = " + pasajeros + "\n";
     }
 }
