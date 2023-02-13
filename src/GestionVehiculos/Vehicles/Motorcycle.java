@@ -6,8 +6,8 @@ public class Motorcycle extends Vehicle {
 
     public Motorcycle(){}
 
-    public Motorcycle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int engineSize) {
-        super(make, model, year, licensePlate, color, weight, numberWheels);
+    public Motorcycle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int engineSize, int speed) {
+        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
         this.engineSize = engineSize;
     }
 
@@ -17,6 +17,26 @@ public class Motorcycle extends Vehicle {
 
     public void PopWheelie(){
         //TODO
+    }
+
+    @Override
+    public boolean starEngine() {
+        return false;
+    }
+
+    @Override
+    public void accelerate(int velocity) {
+        // TODO
+    }
+
+    @Override
+    public boolean stopEngine() {
+        return false;
+    }
+
+    @Override
+    public void park() {
+        // TODO
     }
 
     public int getEngineSize() {

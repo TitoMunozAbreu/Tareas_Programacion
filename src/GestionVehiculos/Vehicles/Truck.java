@@ -6,8 +6,8 @@ public class Truck extends Vehicle {
 
     public Truck(){}
 
-    public Truck(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, double carryingCapacity, int numberAxles) {
-        super(make, model, year, licensePlate, color, weight, numberWheels);
+    public Truck(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, double carryingCapacity, int numberAxles, int speed) {
+        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
         this.carryingCapacity = carryingCapacity;
         this.numberAxles = numberAxles;
     }
@@ -22,6 +22,26 @@ public class Truck extends Vehicle {
 
     public void tow(){
         //TODO
+    }
+
+    @Override
+    public boolean starEngine() {
+        return false;
+    }
+
+    @Override
+    public void accelerate(int velocity) {
+
+    }
+
+    @Override
+    public boolean stopEngine() {
+        return false;
+    }
+
+    @Override
+    public void park() {
+
     }
 
     public double getCarryingCapacity() {

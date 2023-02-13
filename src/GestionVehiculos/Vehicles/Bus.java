@@ -6,8 +6,8 @@ public class Bus extends Vehicle {
 
     public Bus(){}
 
-    public Bus(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberSeats, int numberStandingPassengers) {
-        super(make, model, year, licensePlate, color, weight, numberWheels);
+    public Bus(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberSeats, int numberStandingPassengers, int speed) {
+        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
         this.numberSeats = numberSeats;
         this.numberStandingPassengers = numberStandingPassengers;
     }
@@ -22,6 +22,26 @@ public class Bus extends Vehicle {
 
     public void announceStop(){
         //TODO
+    }
+
+    @Override
+    public boolean starEngine() {
+        return false;
+    }
+
+    @Override
+    public void accelerate(int velocity) {
+        // TODO
+    }
+
+    @Override
+    public boolean stopEngine() {
+        return false;
+    }
+
+    @Override
+    public void park() {
+        // TODO
     }
 
     public int getNumberSeats() {

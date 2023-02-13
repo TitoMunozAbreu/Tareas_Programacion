@@ -1,6 +1,6 @@
 package GestionVehiculos.Vehicles;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements VehiclesOperations {
     private String make;
     private String model;
     private int year;
@@ -8,10 +8,11 @@ public abstract class Vehicle {
     private char color;
     private double weight;
     private int numberWheels;
+    private  int speed;
 
     public Vehicle(){}
 
-    public Vehicle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels) {
+    public Vehicle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int speed) {
         this.make = make;
         this.model = model;
         this.year = year;
@@ -19,18 +20,15 @@ public abstract class Vehicle {
         this.color = color;
         this.weight = weight;
         this.numberWheels = numberWheels;
+        this.speed = speed;
     }
 
-    public void star(){
-        //TODO
+    public int getSpeed() {
+        return speed;
     }
 
-    public void stop() {
-        //TODO
-    }
-
-    public void park(){
-        //TODO
+    public void setSpeed(int speed) {
+        this.speed = speed;
     }
 
     public String getMake() {

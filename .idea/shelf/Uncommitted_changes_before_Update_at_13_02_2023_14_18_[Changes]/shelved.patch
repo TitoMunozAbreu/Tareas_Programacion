@@ -1,0 +1,333 @@
+Index: src/GestionVehiculos/Test/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Test/Test.java b/src/GestionVehiculos/Test/Test.java
+new file mode 100644
+--- /dev/null	(date 1676286194175)
++++ b/src/GestionVehiculos/Test/Test.java	(date 1676286194175)
+@@ -0,0 +1,4 @@
++package GestionVehiculos.Test;
++
++public class Test {
++}
+Index: src/GestionVehiculos/Vehicles/Vehicle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GestionVehiculos.Vehicles;\r\n\r\npublic abstract class Vehicle {\r\n    private String make;\r\n    private String model;\r\n    private int year;\r\n    private String licensePlate;\r\n    private char color;\r\n    private double weight;\r\n    private int numberWheels;\r\n\r\n    public Vehicle(){}\r\n\r\n    public Vehicle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels) {\r\n        this.make = make;\r\n        this.model = model;\r\n        this.year = year;\r\n        this.licensePlate = licensePlate;\r\n        this.color = color;\r\n        this.weight = weight;\r\n        this.numberWheels = numberWheels;\r\n    }\r\n\r\n    public void star(){\r\n        //TODO\r\n    }\r\n\r\n    public void stop() {\r\n        //TODO\r\n    }\r\n\r\n    public void park(){\r\n        //TODO\r\n    }\r\n\r\n    public String getMake() {\r\n        return make;\r\n    }\r\n\r\n    public void setMake(String make) {\r\n        this.make = make;\r\n    }\r\n\r\n    public String getModel() {\r\n        return model;\r\n    }\r\n\r\n    public void setModel(String model) {\r\n        this.model = model;\r\n    }\r\n\r\n    public int getYear() {\r\n        return year;\r\n    }\r\n\r\n    public void setYear(int year) {\r\n        this.year = year;\r\n    }\r\n\r\n    public String getLicensePlate() {\r\n        return licensePlate;\r\n    }\r\n\r\n    public void setLicensePlate(String licensePlate) {\r\n        this.licensePlate = licensePlate;\r\n    }\r\n\r\n    public char getColor() {\r\n        return color;\r\n    }\r\n\r\n    public void setColor(char color) {\r\n        this.color = color;\r\n    }\r\n\r\n    public double getWeight() {\r\n        return weight;\r\n    }\r\n\r\n    public void setWeight(double weight) {\r\n        this.weight = weight;\r\n    }\r\n\r\n    public int getNumberWheels() {\r\n        return numberWheels;\r\n    }\r\n\r\n    public void setNumberWheels(int numberWheels) {\r\n        this.numberWheels = numberWheels;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"Vehicle:\" + \"\\n\" +\r\n                \"Make = \" + this.getMake() + \"\\n\" +\r\n                \"Model = \" + this.getModel() + \"\\n\" +\r\n                \"Year = \" + this.getYear() + \"\\n\" +\r\n                \"LicensePlate = \" + this.getLicensePlate() + \"\\n\" +\r\n                \"Color = \" + this.getColor() + \"\\n\" +\r\n                \"Weight = \" + this.getWeight() + \"\\n\" +\r\n                \"NumberWheels=\" + this.getNumberWheels() + \"\\n\" ;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/Vehicle.java b/src/GestionVehiculos/Vehicles/Vehicle.java
+--- a/src/GestionVehiculos/Vehicles/Vehicle.java	(revision 7954ae56430d37c9ae887b54e976093cb786a73f)
++++ b/src/GestionVehiculos/Vehicles/Vehicle.java	(date 1676288316891)
+@@ -1,6 +1,6 @@
+ package GestionVehiculos.Vehicles;
+ 
+-public abstract class Vehicle {
++public abstract class Vehicle implements VehiclesOperations {
+     private String make;
+     private String model;
+     private int year;
+@@ -8,10 +8,11 @@
+     private char color;
+     private double weight;
+     private int numberWheels;
++    private  int speed;
+ 
+     public Vehicle(){}
+ 
+-    public Vehicle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels) {
++    public Vehicle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int speed) {
+         this.make = make;
+         this.model = model;
+         this.year = year;
+@@ -19,18 +20,15 @@
+         this.color = color;
+         this.weight = weight;
+         this.numberWheels = numberWheels;
+-    }
+-
+-    public void star(){
+-        //TODO
++        this.speed = speed;
+     }
+ 
+-    public void stop() {
+-        //TODO
++    public int getSpeed() {
++        return speed;
+     }
+ 
+-    public void park(){
+-        //TODO
++    public void setSpeed(int speed) {
++        this.speed = speed;
+     }
+ 
+     public String getMake() {
+Index: src/GestionVehiculos/Vehicles/Truck.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GestionVehiculos.Vehicles;\r\n\r\npublic class Truck extends Vehicle {\r\n    private double carryingCapacity;\r\n    private int numberAxles;\r\n\r\n    public Truck(){}\r\n\r\n    public Truck(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, double carryingCapacity, int numberAxles) {\r\n        super(make, model, year, licensePlate, color, weight, numberWheels);\r\n        this.carryingCapacity = carryingCapacity;\r\n        this.numberAxles = numberAxles;\r\n    }\r\n\r\n    public void load(){\r\n        //TODO\r\n    }\r\n\r\n    public void unload(){\r\n        //TODO\r\n    }\r\n\r\n    public void tow(){\r\n        //TODO\r\n    }\r\n\r\n    public double getCarryingCapacity() {\r\n        return carryingCapacity;\r\n    }\r\n\r\n    public void setCarryingCapacity(double carryingCapacity) {\r\n        this.carryingCapacity = carryingCapacity;\r\n    }\r\n\r\n    public int getNumberAxles() {\r\n        return numberAxles;\r\n    }\r\n\r\n    public void setNumberAxles(int numberAxles) {\r\n        this.numberAxles = numberAxles;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return super.toString() + \"\\n\" +\r\n                \"CarryingCapacity = \" + this.getCarryingCapacity() + \"\\n\" +\r\n                \"NumberofAxles = \" + this.getNumberAxles() + \"\\n\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/Truck.java b/src/GestionVehiculos/Vehicles/Truck.java
+--- a/src/GestionVehiculos/Vehicles/Truck.java	(revision 7954ae56430d37c9ae887b54e976093cb786a73f)
++++ b/src/GestionVehiculos/Vehicles/Truck.java	(date 1676286091717)
+@@ -24,6 +24,26 @@
+         //TODO
+     }
+ 
++    @Override
++    public void starEngine() {
++
++    }
++
++    @Override
++    public void accelerate() {
++
++    }
++
++    @Override
++    public void stopEngine() {
++
++    }
++
++    @Override
++    public void park() {
++
++    }
++
+     public double getCarryingCapacity() {
+         return carryingCapacity;
+     }
+Index: src/GestionVehiculos/Vehicles/Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GestionVehiculos.Vehicles;\r\n\r\npublic class Car extends Vehicle {\r\n    private int numberDoors;\r\n    private int numberSeats;\r\n\r\n    public Car(){}\r\n\r\n    public Car(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberDoors, int numberSeats) {\r\n        super(make, model, year, licensePlate, color, weight, numberWheels);\r\n        this.numberDoors = numberDoors;\r\n        this.numberSeats = numberSeats;\r\n    }\r\n\r\n    public void honk(){\r\n        //TODO\r\n    }\r\n\r\n    public void openDoor(){\r\n        //TODO\r\n    }\r\n\r\n    public void closeDoor(){\r\n        //TODO\r\n    }\r\n\r\n    public int getNumberDoors() {\r\n        return numberDoors;\r\n    }\r\n\r\n    public void setNumberDoors(int numberDoors) {\r\n        this.numberDoors = numberDoors;\r\n    }\r\n\r\n    public int getNumberSeats() {\r\n        return numberSeats;\r\n    }\r\n\r\n    public void setNumberSeats(int numberSeats) {\r\n        this.numberSeats = numberSeats;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return super.toString() + \"\\n\" +\r\n                \"NumberOfDoors =\" + this.getNumberDoors() + \"\\n\" +\r\n                \"NumberOfSeats =\" + this.getNumberSeats() + \"\\n\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/Car.java b/src/GestionVehiculos/Vehicles/Car.java
+--- a/src/GestionVehiculos/Vehicles/Car.java	(revision 7954ae56430d37c9ae887b54e976093cb786a73f)
++++ b/src/GestionVehiculos/Vehicles/Car.java	(date 1676290006099)
+@@ -4,24 +4,80 @@
+     private int numberDoors;
+     private int numberSeats;
+ 
++    private int doorsOpened = 0;
++
+     public Car(){}
+ 
+-    public Car(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberDoors, int numberSeats) {
+-        super(make, model, year, licensePlate, color, weight, numberWheels);
++    public Car(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberDoors, int numberSeats, int speed) {
++        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
+         this.numberDoors = numberDoors;
+         this.numberSeats = numberSeats;
+     }
+ 
+     public void honk(){
+-        //TODO
++        System.out.println("¡BEEP BEEP!\n");
++    }
++
++    public void openDoor(int cantidad){
++        if(doorsOpened <= numberDoors){
++            System.out.println("** "+ cantidad + " Puerta abierta **\n");
++            doorsOpened += cantidad;
++        }else{
++            System.out.println("¡Todas las puertas se encuentran abiertas!\n");
++        }
++    }
++
++    public void closeDoor(int cantidad){
++        if(doorsOpened > 0){
++            System.out.println("** " + cantidad + " Puerta cerrada **\n");
++            doorsOpened -= cantidad;
++        }else{
++            System.out.println("¡Todas las puertas se encuentran cerradas!\n");
++        }
++    }
++
++    @Override
++    public boolean starEngine() {
++        boolean starEngine = false;
++        if(stopEngine() == false){
++            System.out.println("** Motor encendido **");
++            starEngine = true;
++        }else{
++            System.out.println("¡El motor ya se encuentre encendido!\n");
++        }
++
++        return starEngine;
+     }
+ 
+-    public void openDoor(){
+-        //TODO
+-    }
++    @Override
++    public void accelerate(int velocity) {
++
++        if(starEngine()){
++            if(getSpeed() <= velocity){
++                System.out.println("** Coche a " + super.getSpeed() + "km/h **\n");
++            }else{
++                System.out.println("¡NO es posible acelerar mas, recuerda velocidad max del coche: " + super.getSpeed());
++            }
++        }else{
++            System.out.println("¡El coche se encuentra apagado, imposible acelerar\n");
++        }
+ 
+-    public void closeDoor(){
+-        //TODO
++    }
++
++    @Override
++    public boolean stopEngine() {
++        boolean stopEngine = false;
++        if(starEngine()){
++            stopEngine = true;
++        }else {
++            System.out.println("¡El motor se encuentra apagado!");
++        }
++        return  stopEngine;
++    }
++
++    @Override
++    public void park() {
++
+     }
+ 
+     public int getNumberDoors() {
+@@ -46,4 +102,6 @@
+                 "NumberOfDoors =" + this.getNumberDoors() + "\n" +
+                 "NumberOfSeats =" + this.getNumberSeats() + "\n";
+     }
++
++
+ }
+Index: src/GestionVehiculos/Vehicles/Motorcycle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GestionVehiculos.Vehicles;\r\n\r\npublic class Motorcycle extends Vehicle {\r\n    private int engineSize;\r\n\r\n\r\n    public Motorcycle(){}\r\n\r\n    public Motorcycle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int engineSize) {\r\n        super(make, model, year, licensePlate, color, weight, numberWheels);\r\n        this.engineSize = engineSize;\r\n    }\r\n\r\n    public void revEngine(){\r\n        //TODO\r\n    }\r\n\r\n    public void PopWheelie(){\r\n        //TODO\r\n    }\r\n\r\n    public int getEngineSize() {\r\n        return engineSize;\r\n    }\r\n\r\n    public void setEngineSize(int engineSize) {\r\n        this.engineSize = engineSize;\r\n    }\r\n\r\n\r\n    @Override\r\n    public String toString() {\r\n        return super.toString() + \"\\n\" +\r\n                \"engineSize=\" + engineSize + \"\\n\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/Motorcycle.java b/src/GestionVehiculos/Vehicles/Motorcycle.java
+--- a/src/GestionVehiculos/Vehicles/Motorcycle.java	(revision 7954ae56430d37c9ae887b54e976093cb786a73f)
++++ b/src/GestionVehiculos/Vehicles/Motorcycle.java	(date 1676288316891)
+@@ -6,8 +6,8 @@
+ 
+     public Motorcycle(){}
+ 
+-    public Motorcycle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int engineSize) {
+-        super(make, model, year, licensePlate, color, weight, numberWheels);
++    public Motorcycle(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int engineSize, int speed) {
++        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
+         this.engineSize = engineSize;
+     }
+ 
+@@ -19,6 +19,26 @@
+         //TODO
+     }
+ 
++    @Override
++    public void starEngine() {
++
++    }
++
++    @Override
++    public void accelerate() {
++
++    }
++
++    @Override
++    public void stopEngine() {
++
++    }
++
++    @Override
++    public void park() {
++
++    }
++
+     public int getEngineSize() {
+         return engineSize;
+     }
+Index: src/GestionVehiculos/Vehicles/Bus.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GestionVehiculos.Vehicles;\r\n\r\npublic class Bus extends Vehicle {\r\n    private int numberSeats;\r\n    private int numberStandingPassengers;\r\n\r\n    public Bus(){}\r\n\r\n    public Bus(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberSeats, int numberStandingPassengers) {\r\n        super(make, model, year, licensePlate, color, weight, numberWheels);\r\n        this.numberSeats = numberSeats;\r\n        this.numberStandingPassengers = numberStandingPassengers;\r\n    }\r\n\r\n    public void pickUp(){\r\n        //TODO\r\n    }\r\n\r\n    public void dropOff(){\r\n        //TODO\r\n    }\r\n\r\n    public void announceStop(){\r\n        //TODO\r\n    }\r\n\r\n    public int getNumberSeats() {\r\n        return numberSeats;\r\n    }\r\n\r\n    public void setNumberSeats(int numberSeats) {\r\n        this.numberSeats = numberSeats;\r\n    }\r\n\r\n    public int getNumberStandingPassengers() {\r\n        return numberStandingPassengers;\r\n    }\r\n\r\n    public void setNumberStandingPassengers(int numberStandingPassengers) {\r\n        this.numberStandingPassengers = numberStandingPassengers;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return super.toString() + \"\\n\" +\r\n                \"numberOfSeats=\" + this.getNumberSeats() + \"\\n\" +\r\n                \", numberStandingPassengers=\" + this.getNumberStandingPassengers() + \"\\n\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/Bus.java b/src/GestionVehiculos/Vehicles/Bus.java
+--- a/src/GestionVehiculos/Vehicles/Bus.java	(revision 7954ae56430d37c9ae887b54e976093cb786a73f)
++++ b/src/GestionVehiculos/Vehicles/Bus.java	(date 1676294235055)
+@@ -6,8 +6,8 @@
+ 
+     public Bus(){}
+ 
+-    public Bus(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberSeats, int numberStandingPassengers) {
+-        super(make, model, year, licensePlate, color, weight, numberWheels);
++    public Bus(String make, String model, int year, String licensePlate, char color, double weight, int numberWheels, int numberSeats, int numberStandingPassengers, int speed) {
++        super(make, model, year, licensePlate, color, weight, numberWheels, speed);
+         this.numberSeats = numberSeats;
+         this.numberStandingPassengers = numberStandingPassengers;
+     }
+@@ -24,6 +24,31 @@
+         //TODO
+     }
+ 
++    @Override
++    public boolean starEngine() {
++        return false;
++    }
++
++    @Override
++    public void accelerate(int velocity) {
++        //TODO
++    }
++
++    @Override
++    public void accelerate() {
++    //TODO
++    }
++
++    @Override
++    public boolean stopEngine() {
++    return false;
++    }
++
++    @Override
++    public void park() {
++
++    }
++
+     public int getNumberSeats() {
+         return numberSeats;
+     }
+Index: src/GestionVehiculos/Vehicles/VehiclesOperations.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GestionVehiculos/Vehicles/VehiclesOperations.java b/src/GestionVehiculos/Vehicles/VehiclesOperations.java
+new file mode 100644
+--- /dev/null	(date 1676289062090)
++++ b/src/GestionVehiculos/Vehicles/VehiclesOperations.java	(date 1676289062090)
+@@ -0,0 +1,10 @@
++package GestionVehiculos.Vehicles;
++
++public interface VehiclesOperations {
++
++    public abstract boolean starEngine();
++    public abstract void accelerate(int velocity);
++    public abstract boolean stopEngine();
++    public abstract void park();
++
++}
