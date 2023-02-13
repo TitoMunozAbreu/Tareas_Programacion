@@ -4,7 +4,6 @@ import Aeropuerto.Personas.*;
 import Aeropuerto.Vuelos.Vuelo;
 
 import java.time.LocalTime;
-import java.util.HashSet;
 
 public class Test {
     public static void main(String[] args) {
@@ -26,6 +25,7 @@ public class Test {
 
         Vuelo vuelo = new Vuelo("Kiev", "Sevilla", LocalTime.of(12,30,0), LocalTime.of(16,15,0),piloto1);
 
+        vuelo.agregarPasajeros(pasajero1);
         vuelo.agregarPasajeros(pasajero1);
         vuelo.agregarPasajeros(pasajero2);
         vuelo.agregarPasajeros(pasajero3);

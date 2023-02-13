@@ -15,7 +15,7 @@ public class Vuelo {
     private LocalTime timeOrigen;
     private LocalTime timeLlegada;
     Piloto piloto;
-    Set<Pasajero> pasajeros;
+    HashSet<Pasajero> pasajeros;
 
     public Vuelo(){}
 
@@ -66,7 +66,7 @@ public class Vuelo {
         return pasajeros;
     }
 
-    public void setPasajeros(Set<Pasajero> pasajeros) {
+    public void setPasajeros(HashSet<Pasajero> pasajeros) {
         this.pasajeros = pasajeros;
     }
 

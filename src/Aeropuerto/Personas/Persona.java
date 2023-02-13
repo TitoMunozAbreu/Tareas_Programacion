@@ -54,4 +54,6 @@ public class Persona {
                 "DNI = " + this.getDNI() + "\n" +
                 "Email = " + this.getEmail();
     }
+
+
 }

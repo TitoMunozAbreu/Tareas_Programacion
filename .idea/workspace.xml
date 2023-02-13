@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea Aeropuerto">
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/VehiclesOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aeropuerto/Personas/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuerto/Personas/Persona.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated project Vehicles management system">
       <change beforePath="$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aeropuerto/Vuelos/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aeropuerto/Vuelos/Vuelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Vehicles/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +185,7 @@
       <workItem from="1676020147240" duration="292000" />
       <workItem from="1676029536966" duration="1816000" />
       <workItem from="1676285320844" duration="9172000" />
-      <workItem from="1676295993013" duration="810000" />
+      <workItem from="1676295993013" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -294,7 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676294537348</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tarea Aeropuerto: Verificando el main">
+      <created>1676296881180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676296881180</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated project Vehicles management system">
+      <created>1676296955449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676296955449</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +327,8 @@
     <MESSAGE value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
     <MESSAGE value="Examen Prueba 6: Banda de Rock." />
     <MESSAGE value="Tarea Aeropuerto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea Aeropuerto" />
+    <MESSAGE value="Tarea Aeropuerto: Verificando el main" />
+    <MESSAGE value="Updated project Vehicles management system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated project Vehicles management system" />
   </component>
 </project>
