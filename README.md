@@ -10,7 +10,7 @@ Created new repository.
      - 5) [Tarea Empresa](src/Empresa/)
      - 6) GestionVehiculos by ChatGPT [GestionVehiculos](src/GestionVehiculos/)
      - 7) [Tarea Aeropuerto](src/Aeropuerto/)
-     - 8) [Prueba Banda de Rock](sr/Banda_Rock)
-     - 9) Soccer League App by Oracle Java SE8 [Soccer League](sr/SoccerLeague)
-     - 10) [Tarea Hospital](sr/Hospital)
+     - 8) [Prueba Banda de Rock](src/Banda_Rock)
+     - 9) Soccer League App by Oracle Java SE8 [Soccer League](src/SoccerLeague)
+     - 10) [Tarea Hospital](src/Hospital)
 
