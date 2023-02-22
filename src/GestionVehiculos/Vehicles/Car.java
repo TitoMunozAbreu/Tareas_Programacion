@@ -1,5 +1,7 @@
 package GestionVehiculos.Vehicles;
 
+import GestionVehiculos.Exceptions.NotFoundException;
+
 public class Car extends Vehicle {
     private int numberDoors;
     private int numberSeats;
@@ -18,66 +20,64 @@ public class Car extends Vehicle {
         System.out.println("¡BEEP BEEP!\n");
     }
 
-    public void openDoor(int cantidad){
+    public void openDoor(int cantidad) throws NotFoundException {
         if(doorsOpened <= numberDoors){
             System.out.println("** "+ cantidad + " Puerta abierta **\n");
             doorsOpened += cantidad;
         }else{
-            System.out.println("¡Todas las puertas se encuentran abiertas!\n");
+            throw new NotFoundException("¡Todas las puertas se encuentran abiertas!\n");
         }
     }
 
-    public void closeDoor(int cantidad){
+    public void closeDoor(int cantidad) throws NotFoundException{
         if(doorsOpened > 0){
             System.out.println("** " + cantidad + " Puerta cerrada **\n");
             doorsOpened -= cantidad;
         }else{
-            System.out.println("¡Todas las puertas se encuentran cerradas!\n");
+            throw new NotFoundException("¡Todas las puertas se encuentran cerradas!\n");
         }
     }
 
     @Override
-    public boolean starEngine() {
+    public boolean starEngine() throws NotFoundException{
         boolean starEngine = false;
         if(stopEngine() == false){
-            System.out.println("** Motor encendido **");
+            System.out.println("** Motor encendido **\n");
             starEngine = true;
         }else{
-            System.out.println("¡El motor ya se encuentre encendido!\n");
+            throw new NotFoundException("¡El motor ya se encuentre encendido!\n");
         }
-
         return starEngine;
     }
 
     @Override
-    public void accelerate(int velocity) {
-
-        if(starEngine()){
-            if(getSpeed() <= velocity){
+    public void accelerate(int velocity)throws NotFoundException {
+        if(starEngine() && doorsOpened == 0){
+            if(velocity <= super.getSpeed()){
                 System.out.println("** Coche a " + super.getSpeed() + "km/h **\n");
             }else{
-                System.out.println("¡NO es posible acelerar mas, recuerda velocidad max del coche: " + super.getSpeed());
+                throw new NotFoundException("¡Velocidad max del coche: " + super.getSpeed() + " km/h!\n");
             }
         }else{
-            System.out.println("¡El coche se encuentra apagado, imposible acelerar\n");
+            throw new NotFoundException("¡Debera encender antes el coche y cerrar las puertas\n");
         }
-
     }
 
     @Override
-    public boolean stopEngine() {
+    public boolean stopEngine() throws NotFoundException {
         boolean stopEngine = false;
         if(starEngine()){
             stopEngine = true;
+            System.out.println("** Apagando motor **\n");
         }else {
-            System.out.println("¡El motor se encuentra apagado!");
+            throw new NotFoundException("¡El motor se encuentra apagado!");
         }
         return  stopEngine;
     }
 
     @Override
-    public void park() {
-
+    public void park(){
+        System.out.println("** Coche parkeado **\n");
     }
 
     public int getNumberDoors() {

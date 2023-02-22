@@ -1,5 +1,7 @@
 package GestionVehiculos.Vehicles;
 
+import GestionVehiculos.Exceptions.NotFoundException;
+
 public class Truck extends Vehicle {
     private double carryingCapacity;
     private int numberAxles;
@@ -12,37 +14,76 @@ public class Truck extends Vehicle {
         this.numberAxles = numberAxles;
     }
 
-    public void load(){
-        //TODO
+    public boolean isLoad() throws NotFoundException{
+        boolean isLoad = false;
+        if(!stopEngine()){
+            isLoad = true;
+            System.out.println("** Remolcando coche **\n");
+        }else{
+            throw new NotFoundException("¡Debes apagar el motor para realizar la carga!\n");
+        }
+        return isLoad;
     }
 
-    public void unload(){
-        //TODO
+    public boolean isUnload() throws NotFoundException{
+        boolean isUnload = false;
+        if(!stopEngine()){
+            isUnload = true;
+            System.out.println("** Descargando coche remolcado **\n");
+        }else{
+            throw new NotFoundException("¡Debes apagar el motor para realizar la descarga!\n");
+        }
+        return isUnload;
     }
 
-    public void tow(){
-        //TODO
+    public void tow(Vehicle vehicle) throws NotFoundException{
+        if(isLoad() == false && isUnload() == true ){
+                if(vehicle.getWeight() <= this.getCarryingCapacity()){
+                    System.out.println("** Truck disponible **\n");
+                }else{
+                    throw new NotFoundException("!El peso del vehiculo supera la capacidad max de la truck!\n");
+            }
+        }else{
+            throw new NotFoundException("!La truck no esta disponible!\n");
+        }
     }
 
     @Override
-    public boolean starEngine() {
-        return false;
+    public boolean starEngine() throws NotFoundException {
+        boolean starEngine = false;
+        if(stopEngine() == false){
+            System.out.println("** Motor encendido **\n");
+            starEngine = true;
+        }else{
+            throw new NotFoundException("¡El motor ya se encuentre encendido!\n");
+        }
+        return starEngine;
     }
 
     @Override
-    public void accelerate(int velocity) {
-
+    public void accelerate(int velocity) throws NotFoundException{
+        if(starEngine()){
+            super.setSpeed(velocity);
+            System.out.println("** Truck a " + super.getSpeed() + "km/h **\n");
+        }else {
+            throw new NotFoundException("¡Debes encender antes la truck!\n");
+        }
     }
 
     @Override
-    public boolean stopEngine() {
-        return false;
+    public boolean stopEngine() throws NotFoundException {
+        boolean stopEngine = false;
+        if(starEngine()){
+            stopEngine = true;
+            System.out.println("** Apagando motor **\n");
+        }else {
+            throw new NotFoundException("¡El motor se encuentra apagado!\n");
+        }
+        return  stopEngine;
     }
 
     @Override
-    public void park() {
-
-    }
+    public void park() {System.out.println("** Truck parkeada **\n");}
 
     public double getCarryingCapacity() {
         return carryingCapacity;

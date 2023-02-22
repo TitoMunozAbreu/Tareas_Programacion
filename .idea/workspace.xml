@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated project Vehicles management system">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea Hospital de programacion">
       <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Exceptions/NotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/GestionVehiculos/Exceptions/NotFoundParkingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/EspecialidadMedico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/Medico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/NoMedico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/Trabajador.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Goal.java" afterDir="false" />
@@ -17,11 +11,7 @@
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Team.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_02_2023_14_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_02_2023_14_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tareas_Programacion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas_Programacion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/DataBase/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/DataBase/JDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingLot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestionVehiculos/Parking/ParkingTicket.java" afterDir="false" />
@@ -111,23 +101,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Program Files/MySQL/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/MySQL/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
@@ -242,7 +232,8 @@
       <workItem from="1676891530362" duration="162000" />
       <workItem from="1676895567309" duration="8786000" />
       <workItem from="1676972034819" duration="46000" />
-      <workItem from="1677045955130" duration="13826000" />
+      <workItem from="1677045955130" duration="16445000" />
+      <workItem from="1677077545801" duration="512000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -363,7 +354,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676297325703</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Tarea Hospital de programacion">
+      <created>1677068921889</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677068921889</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Tarea Hospital de programacion">
+      <created>1677068963174</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677068963174</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Tarea Hospital de programacion">
+      <created>1677069068118</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677069068118</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +406,7 @@
     <MESSAGE value="Tarea Aeropuerto" />
     <MESSAGE value="Tarea Aeropuerto: Verificando el main" />
     <MESSAGE value="Updated project Vehicles management system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated project Vehicles management system" />
+    <MESSAGE value="Tarea Hospital de programacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea Hospital de programacion" />
   </component>
 </project>

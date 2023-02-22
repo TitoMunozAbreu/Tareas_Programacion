@@ -1,5 +1,7 @@
 package GestionVehiculos.Vehicles;
 
+import java.util.Objects;
+
 public abstract class Vehicle implements VehiclesOperations {
     private String make;
     private String model;
@@ -85,6 +87,18 @@ public abstract class Vehicle implements VehiclesOperations {
 
     public void setNumberWheels(int numberWheels) {
         this.numberWheels = numberWheels;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Vehicle)) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return getYear() == vehicle.getYear() && getColor() == vehicle.getColor() && Double.compare(vehicle.getWeight(),
+                getWeight()) == 0 && getNumberWheels() == vehicle.getNumberWheels() && getSpeed() == vehicle.getSpeed() && Objects.equals(getMake(),
+                vehicle.getMake()) && Objects.equals(getModel(),
+                vehicle.getModel()) && Objects.equals(getLicensePlate(),
+                vehicle.getLicensePlate());
     }
 
     @Override
