@@ -30,6 +30,7 @@ I`d taken my time to make this practice.
 
 ### Continued development
     - Learn about DAO and DTO concepts
+    - Debugging
 
 
 ### Useful resources

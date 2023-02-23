@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Lesson 6: Describing Objects and Classes.&#10; - Lesson 7: Manipulating and formatting the data in your program.&#10; - Lesson 8: Creating and using methods.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Goal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Goal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals.">
+      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +214,7 @@
       <workItem from="1676895567309" duration="8786000" />
       <workItem from="1676972034819" duration="46000" />
       <workItem from="1677045955130" duration="16445000" />
-      <workItem from="1677077545801" duration="10893000" />
+      <workItem from="1677077545801" duration="11168000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -376,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677078359118</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals.">
+      <created>1677139663234</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677139663234</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +411,8 @@
     <MESSAGE value="Tarea Hospital de programacion" />
     <MESSAGE value="Updated Gestion Vehiculos" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 6: Describing Objects and Classes.&#10; - Lesson 7: Manipulating and formatting the data in your program.&#10; - Lesson 8: Creating and using methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Lesson 6: Describing Objects and Classes.&#10; - Lesson 7: Manipulating and formatting the data in your program.&#10; - Lesson 8: Creating and using methods." />
+    <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals." />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
