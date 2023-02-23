@@ -22,7 +22,7 @@ I`d taken my time to make this practice.
 
 ### What I learned
 
-    - Ones of the many String class methods, I used the methods split and matches which both contains regular expressions (regrex).
+    - One of the many String class methods, I used the methods split and matches which both contains regular expressions (regrex).
     - To call a static method from another class. I called by the named call dot name method.
     - methods could be static and used it in the main class just by calling its own class unless you need to instantiate an object that won't
       necessary.
