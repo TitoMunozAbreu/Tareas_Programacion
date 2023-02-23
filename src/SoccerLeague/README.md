@@ -13,7 +13,7 @@ Soccer league app
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-This is a beginner activity which pass through out all the Java fundamental skills.
+This is a beginner activity which pass throughout all the Java fundamental skills.
 
 
 ## My process
@@ -35,8 +35,7 @@ I`d taken my time to make this practice.
 
 ### Useful resources
 
-
-The are some code
+  Some code
 
 ```Java code
      //call regrex String methods

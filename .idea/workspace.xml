@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals.">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - README.md updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SoccerLeague/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,9 @@
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Fecha_Entrega.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Reporte.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Test.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LMVk1L5epVUrmyaEr8gkObhofH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -214,7 +218,8 @@
       <workItem from="1676895567309" duration="8786000" />
       <workItem from="1676972034819" duration="46000" />
       <workItem from="1677045955130" duration="16445000" />
-      <workItem from="1677077545801" duration="11168000" />
+      <workItem from="1677077545801" duration="11372000" />
+      <workItem from="1677139971831" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -377,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677139663234</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Oracle: Java SE 8 activity guide &#10; - README.md updated">
+      <created>1677139835207</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677139835207</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +424,8 @@
     <MESSAGE value="Updated Gestion Vehiculos" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 6: Describing Objects and Classes.&#10; - Lesson 7: Manipulating and formatting the data in your program.&#10; - Lesson 8: Creating and using methods." />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals." />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals." />
+    <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
