@@ -11,8 +11,8 @@ public class GameUtils {
      */
     public static void addGameGoals(Game currGame) {
         //Chek if there's any score in the currGame
-        if (currGame.goals.length >= 1) {
-            int contador = currGame.goals.length;
+        if (currGame.getGoals().length >= 1) {
+            int contador = currGame.getGoals().length;
             int randomTime = 0;
             int randomTeam = 0;
             int randomPlayer = 0;
@@ -22,21 +22,18 @@ public class GameUtils {
                 randomTeam = (int)(Math.random()*2);
 
                 if(randomTeam == 0){
-                    randomPlayer = (int)(Math.random()*currGame.homeTeam.playerArray.length);
-                    Goal goal = new Goal(currGame.homeTeam.playerArray[randomPlayer], currGame.homeTeam, randomTime);
-                    currGame.goals[contador-1] = goal;
+                    randomPlayer = (int)(Math.random()* currGame.getHomeTeam().getPlayerArray().length);
+                    Goal goal = new Goal(currGame.getHomeTeam().getPlayerArray()[randomPlayer], currGame.getHomeTeam(), randomTime);
+                    currGame.getGoals()[contador-1] = goal;
                 }
 
                 if(randomTeam == 1){
-                    randomPlayer = (int)(Math.random()*currGame.awayTeam.playerArray.length);
-                    Goal goal = new Goal(currGame.awayTeam.playerArray[randomPlayer],currGame.awayTeam,randomTime);
-                    currGame.goals[contador-1] = goal;
+                    randomPlayer = (int)(Math.random()* currGame.getAwayTeam().getPlayerArray().length);
+                    Goal goal = new Goal(currGame.getAwayTeam().getPlayerArray()[randomPlayer], currGame.getAwayTeam(),randomTime);
+                    currGame.getGoals()[contador-1] = goal;
                 }
                 contador--;
             }
-        }else {
-            System.out.println("The game ended 0-0");
         }
-
     }
 }
