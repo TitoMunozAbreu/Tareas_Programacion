@@ -12,5 +12,5 @@ Created new repository.
      - 7) [Tarea Aeropuerto](src/Aeropuerto/)
      - 8) [Prueba Banda de Rock](src/Banda_Rock)
      - 9) Soccer League App by Oracle Java SE8 [Soccer League](src/SoccerLeague)
-     - 10) [Tarea Hospital](src/Hospital)
+     - 10) Updated [Tarea Hospital](src/Hospital)
 

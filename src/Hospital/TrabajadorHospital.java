@@ -1,16 +1,15 @@
 package Hospital;
 
-public class Trabajador {
+public abstract class TrabajadorHospital {
     private String nombre;
     private String DNI;
     private double sueldo;
 
-    public Trabajador(){}
+    public TrabajadorHospital(){}
 
-    public Trabajador(String nombre, String DNI, double sueldo){
+    public TrabajadorHospital(String nombre, String DNI){
         this.nombre = nombre;
         this.DNI = DNI;
-        this.sueldo = sueldo;
     }
 
     public String getNombre() {
@@ -29,18 +28,19 @@ public class Trabajador {
         this.DNI = DNI;
     }
 
-    public double getSueldo() {
-        return sueldo;
+    public double getSueldo(){
+        return this.sueldo;
     }
 
-    public void setSueldo(double sueldo) {
+    public  void setSueldo(double sueldo){
         this.sueldo = sueldo;
     }
+
+    public abstract void calcularSueldo();
 
     @Override
     public String toString() {
         return "Nombre = " + this.getNombre() + "\n" +
-                "DNI = " + this.getDNI() + "\n" +
-                "sueldo = " + this.getSueldo() + "\n";
+                "DNI = " + this.getDNI() + "\n";
     }
 }

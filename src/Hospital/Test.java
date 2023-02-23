@@ -1,21 +1,35 @@
 package Hospital;
 
+import Hospital.medico.Cardiologa;
+import Hospital.medico.Cirujana;
+import Hospital.medico.Medico;
+import Hospital.medico.Pediatra;
+import Hospital.noMedico.Enfermero;
+import Hospital.noMedico.Limpiador;
+import Hospital.noMedico.Recepcionisto;
+
 public class Test {
 
     public static void main(String[] args) {
-        Trabajador trabajador1 = new Medico("Frida", "146564Y", 2500, EspecialidadMedico.CIRUJANO, 5465, 5);
-        Trabajador trabajador2 = new Medico("Cleopatra", "5689X", 2250.5, EspecialidadMedico.PEDIATRA, 1335, 10);
-        Trabajador trabajador3 = new Medico("Julia", "4654X", 20505.9, EspecialidadMedico.CARDIOLOGA, 98465, 3);
-        Trabajador trabajador4 = new NoMedico("Petra", "87653X", 1520, Cargo.ENFERMERA);
-        Trabajador trabajador5 = new NoMedico("Concha", "32156X", 1520, Cargo.LIMPIADORES);
-        Trabajador trabajador6 = new NoMedico("Carmen", "8626Y", 1510, Cargo.RECEPCIONISTO);
+        TrabajadorHospital t1 = new Cardiologa("Cleopatra","546654X", 12354, 8);
+        TrabajadorHospital t2 = new Pediatra("Frida","8743324X", 9875, 5);
+        TrabajadorHospital t3 = new Cirujana("Elisa","654234Y", 654, 2);
+        TrabajadorHospital t4 = new Enfermero("Violeta","97845X");
+        TrabajadorHospital t5 = new Limpiador("Grecia","465123Y");
+        TrabajadorHospital t6 = new Recepcionisto("Francia","5648X");
 
-        System.out.println(trabajador1.toString());
-        System.out.println(trabajador2.toString());
-        System.out.println(trabajador3.toString());
-        System.out.println(trabajador4.toString());
-        System.out.println(trabajador5.toString());
-        System.out.println(trabajador6.toString());
+        TrabajadorHospital[] empleados = {t1, t2, t3, t4, t5, t6};
+        for(TrabajadorHospital empleado : empleados){
+            empleado.calcularSueldo();
+            System.out.println(empleado.toString());
+        }
+
+        //Acceder a los metodos del objeto Cardiologa a traves del casting
+        System.out.println("Bonificacion de " + t1.getNombre() + " " + ((Cardiologa)t1).getBonificacion());
+
+
+
+
 
     }
 
