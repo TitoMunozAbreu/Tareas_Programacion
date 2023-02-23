@@ -1,11 +1,16 @@
 package SoccerLeague.soccer;
 
+import SoccerLeague.utility.PlayerDatabase;
+
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
 public class League {
     public static void main(String[] args) {
         //instantiate League and run the various methods as instance methods
         League theLeague = new League();
         //Add a call to the createTeams method.
-        Team[] theTeams = theLeague.createTeams();
+        Team[] theTeams = theLeague.createTeams("The Robins,TheCrows,The Sallows,TheGreens", 3);
 
         //add a call to the createGames method.
         Game[] theGames = theLeague.createGames(theTeams);
@@ -21,48 +26,38 @@ public class League {
     }
 
     //createTeams method
-    public Team[] createTeams(){
-        //Instantiate a number of Player objects for each Team.
-        Player player1 = new Player("George Eliot");
-        Player player2 = new Player("Graham Green");
-        Player player3 = new Player("Geoffrey Chaucer");
+    public Team[] createTeams(String teamNames, int teamSize){
+        //Instantiate a new PlayerDatabase object at the start of the createTeams method.
+        PlayerDatabase playerDB = new PlayerDatabase();
+        //use a StringTokenizer to set up a for loop to iterate through however many teams have been specified
+        StringTokenizer teamNameTokens = new StringTokenizer(teamNames,",");
 
-        //Create a Player array called thePlayers
-        Player[] thePlayers = {player1, player2, player3};
+        //Create a Team array called theTeams.
+        Team[] theTeams = new Team[teamNameTokens.countTokens()];
 
-        //Declare and instantiate a Team object.
-        Team team1 = new Team("The Greens", thePlayers);
-        //create a Team called team2 and name it "The Reds".
-        Team team2 = new Team("The Reds");
-
-        //Create a three-element Player array and assign it to the playerArray reference of the Team object
-        team2.setPlayerArray(new Player[3]);
-
-        //Add a player named "Robert Service" to the first element of playerArray.
-        team2.getPlayerArray()[0] = new Player("Robert Service");
-
-        //Add two new Player objects with playerName attributes set to "Robbie Burns" and "Rafael Sabatini"
-        team2.getPlayerArray()[1] = new Player("Robbie Burns");
-        team2.getPlayerArray()[2] = new Player("Rafael Sabatini");
-
-        Team[] theTeams = {team1, team2};
+        //Write a for loop that iterates through the array and creates a new Team for each element
+        for (int i = 0; i < theTeams.length; i++) {
+            theTeams[i] = new Team(teamNameTokens.nextToken(), playerDB.getTeam(teamSize));
+        }
 
         return theTeams;
     }
 
     //createTeams method
     public Game[] createGames(Team[] theTeams){
-        //Game object needs to have homeTeam and awayTeam set;
-        Game theGame = new Game(theTeams[0], theTeams[1]);
-        //add some more games to the Game array so that four games are played in total
-        Game theGame2 = new Game(theTeams[1], theTeams[0]);
-        Game theGame3 = new Game(theTeams[0], theTeams[1]);
-        Game theGame4 = new Game(theTeams[1], theTeams[0]);
-
-        //Create a Game array with theGame as its only element
-        Game[] theGames = {theGame, theGame2, theGame3, theGame4};
-
-        return theGames;
+        //Instantiate an ArrayList to hold the games that you will create
+        ArrayList<Game> theGames = new ArrayList<>();
+        //Create a for loop to iterate through all the teams in the Team array
+        for(Team homeTeam : theTeams){
+            for(Team awayTeam : theTeams){
+                //check that each teams are differents
+                if(homeTeam!=awayTeam){
+                    //create a Game for each iteration of the inner loop.
+                    theGames.add(new Game(homeTeam,awayTeam));
+                }
+            }
+        }
+        return (Game[]) theGames.toArray( new Game[1] );
     }
 
     //Create a method called showBestTeam that receives a Team array and returns void.

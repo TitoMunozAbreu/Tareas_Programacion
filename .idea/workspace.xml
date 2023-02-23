@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - README.md updated">
-      <change afterPath="$PROJECT_DIR$/src/Hospital/medico/Cardiologa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/medico/Cirujana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/medico/Medico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/medico/Pediatra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/noMedico/Enfermero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/noMedico/Limpiador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/noMedico/NoMedico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hospital/noMedico/Recepcionisto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoccerLeague/utility/PlayerDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Cargo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/EspecialidadMedico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Medico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/NoMedico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hospital/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hospital/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hospital/TrabajadorHospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +76,7 @@
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/PlayerDatabase.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Alquiler_pelicula.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Bono.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Cabecera.java" root0="SKIP_INSPECTION" />
@@ -133,7 +120,7 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.League">
     <configuration name="Aeropuerto.Test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aeropuerto.Test.Test" />
       <module name="Tareas_Programacion" />
@@ -201,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.League" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.GestionVehiculos.Test.Test" />
         <item itemvalue="Application.Aeropuerto.Test.Test" />
         <item itemvalue="Application.Empresa.Test" />
@@ -245,7 +232,8 @@
       <workItem from="1677045955130" duration="16445000" />
       <workItem from="1677077545801" duration="11372000" />
       <workItem from="1677139971831" duration="658000" />
-      <workItem from="1677148763416" duration="8699000" />
+      <workItem from="1677148763416" duration="9007000" />
+      <workItem from="1677180464216" duration="4512000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -422,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677140191992</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Ejercicio de Hospital: Actualizado con las nuevas clases y metodos.">
+      <created>1677157789372</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677157789372</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Oracle: Java SE 8 activity guide &#10; - README.md updated">
+      <created>1677157875762</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677157875762</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +459,7 @@
     <MESSAGE value="Updated Gestion Vehiculos" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 6: Describing Objects and Classes.&#10; - Lesson 7: Manipulating and formatting the data in your program.&#10; - Lesson 8: Creating and using methods." />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 9: Using encapsulation.&#10; - Lesson 10: More on conditionals." />
+    <MESSAGE value="Ejercicio de Hospital: Actualizado con las nuevas clases y metodos." />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
   </component>
