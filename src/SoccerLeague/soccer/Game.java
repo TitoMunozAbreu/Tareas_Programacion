@@ -2,15 +2,21 @@ package SoccerLeague.soccer;
 
 import SoccerLeague.utility.GameUtils;
 
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+
 public class Game {
     private Team homeTeam;
     private Team awayTeam;
     private Goal[] goals;
+    //Add a LocalDateTime attribute, theDateTime
+    private LocalDateTime theDateTime;
 
     public Game(){}
-    public Game(Team homeTeam, Team awayTeam){
+    public Game(Team homeTeam, Team awayTeam, LocalDateTime theDateTime){
         this.setHomeTeam(homeTeam);
         this.setAwayTeam(awayTeam);
+        this.theDateTime = theDateTime;
     }
 
     //create a new method playGame
@@ -37,7 +43,8 @@ public class Game {
         StringBuilder returnString = new StringBuilder();
         //Display which teams are playing
         returnString.append(this.homeTeam.getTeamName() + " vs. "
-                            +this.awayTeam.getTeamName() + "\n");
+                            +this.awayTeam.getTeamName() + "\n"
+                            + "Date " + this.theDateTime.format(DateTimeFormatter.ISO_LOCAL_DATE) + "\n");
 
         for(Goal currGoals: this.getGoals()){
             if(currGoals.getTheTeam().equals(this.homeTeam)){
@@ -94,5 +101,13 @@ public class Game {
 
     public void setGoals(Goal[] goals) {
         this.goals = goals;
+    }
+
+    public LocalDateTime getTheDateTime() {
+        return theDateTime;
+    }
+
+    public void setTheDateTime(LocalDateTime theDateTime) {
+        this.theDateTime = theDateTime;
     }
 }

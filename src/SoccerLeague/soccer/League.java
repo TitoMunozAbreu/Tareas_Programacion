@@ -2,6 +2,8 @@ package SoccerLeague.soccer;
 
 import SoccerLeague.utility.PlayerDatabase;
 
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
@@ -14,6 +16,8 @@ public class League {
 
         //add a call to the createGames method.
         Game[] theGames = theLeague.createGames(theTeams);
+
+        System.out.println(theLeague.getLeagueAnnouncement(theGames));
 
         //add a call to the playGame method and pass in the maximum number of goals.
         for(Game currGame: theGames){
@@ -45,6 +49,8 @@ public class League {
 
     //createTeams method
     public Game[] createGames(Team[] theTeams){
+        //declare an int variable, daysBetweenGames, and initialize it to 0.
+        int daysBetweenGames = 0;
         //Instantiate an ArrayList to hold the games that you will create
         ArrayList<Game> theGames = new ArrayList<>();
         //Create a for loop to iterate through all the teams in the Team array
@@ -52,8 +58,9 @@ public class League {
             for(Team awayTeam : theTeams){
                 //check that each teams are differents
                 if(homeTeam!=awayTeam){
+                    daysBetweenGames += 5;
                     //create a Game for each iteration of the inner loop.
-                    theGames.add(new Game(homeTeam,awayTeam));
+                    theGames.add(new Game(homeTeam,awayTeam, LocalDateTime.now().plusDays(daysBetweenGames)));
                 }
             }
         }
@@ -79,6 +86,22 @@ public class League {
         }
         //write out the name of the winning team to the console.
         System.out.println("\nWinner of the league is " + currBestTeam.getTeamName());
+    }
+
+    //method that calculates how long the League lasts.
+    public String getLeagueAnnouncement(Game[] theGames){
+        //Add a line that creates a Period object based on the dates of the first and last games.
+        Period thePeriod = Period.between(theGames[0].getTheDateTime().toLocalDate(),
+                                            theGames[theGames.length-1].getTheDateTime().toLocalDate());
+
+        StringBuilder returnString = new StringBuilder();
+
+        returnString.append("The League is scheduled to run for " +
+                            thePeriod.getMonths() + " month(s), and "+
+                            thePeriod.getDays() + " day(s) \n");
+
+        return returnString.toString();
+
     }
 
 }

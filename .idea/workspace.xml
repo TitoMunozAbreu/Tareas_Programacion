@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Lesson 11-1: Iterating through data.">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +234,7 @@
       <workItem from="1677139971831" duration="658000" />
       <workItem from="1677148763416" duration="9007000" />
       <workItem from="1677180464216" duration="6784000" />
-      <workItem from="1677223479745" duration="926000" />
+      <workItem from="1677223479745" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -431,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677185453543</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Oracle: Java SE 8 activity guide &#10; - Updated README.md">
+      <created>1677224434142</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224434142</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +477,8 @@
     <MESSAGE value="Ejercicio de Hospital: Actualizado con las nuevas clases y metodos." />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-1: Iterating through data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-1: Iterating through data." />
+    <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Updated README.md" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
