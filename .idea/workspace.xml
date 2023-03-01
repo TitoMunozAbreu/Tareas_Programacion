@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Updated README.md">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Oracle: Java SE 8 activity guide &#10; - Lesson 11-2: Working with LocalDateTime.">
+      <change afterPath="$PROJECT_DIR$/src/Lista/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,6 +74,8 @@
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/Limpiador.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/NoMedico.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/Recepcionisto.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Lista/Cola.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Lista/Lista.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" root0="SKIP_INSPECTION" />
@@ -120,26 +123,13 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.League">
+  <component name="RunManager" selected="Application.Lista">
     <configuration name="Aeropuerto.Test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aeropuerto.Test.Test" />
       <module name="Tareas_Programacion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Aeropuerto.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Empresa.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Empresa.Test" />
-      <module name="Tareas_Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Empresa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,6 +163,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lista.Lista" />
+      <module name="Tareas_Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hospital.Test" />
       <module name="Tareas_Programacion" />
@@ -188,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lista" />
         <item itemvalue="Application.League" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.GestionVehiculos.Test.Test" />
         <item itemvalue="Application.Aeropuerto.Test.Test" />
-        <item itemvalue="Application.Empresa.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +237,9 @@
       <workItem from="1677139971831" duration="658000" />
       <workItem from="1677148763416" duration="9007000" />
       <workItem from="1677180464216" duration="6784000" />
-      <workItem from="1677223479745" duration="4228000" />
+      <workItem from="1677223479745" duration="4948000" />
+      <workItem from="1677257934526" duration="19000" />
+      <workItem from="1677674852413" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -439,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677224434142</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Oracle: Java SE 8 activity guide &#10; - Lesson 11-2: Working with LocalDateTime.">
+      <created>1677228695974</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228695974</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +490,8 @@
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - README.md updated" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-1: Iterating through data." />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Updated README.md" />
+    <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-2: Working with LocalDateTime." />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-2: Working with LocalDateTime." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
