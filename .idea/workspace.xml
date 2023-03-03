@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: encolar y desencolar.">
-      <change afterPath="$PROJECT_DIR$/src/Lista/Pila.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ikea/ArticuloDecoracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/EficienciaEnergetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/Electrodomestico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/Mueble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/ProductoHogar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/Tienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ikea/TipoMaterial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lista/Cola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Cola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,6 +80,13 @@
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/Limpiador.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/NoMedico.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Hospital/noMedico/Recepcionisto.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/ArticuloDecoracion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/EficienciaEnergetica.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/Electrodomestico.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/Mueble.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/Producto.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/ProductoHogar.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Ikea/TipoMaterial.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Cola.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Lista.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Pila.java" root0="SKIP_INSPECTION" />
@@ -243,7 +256,8 @@
       <workItem from="1677674852413" duration="1953000" />
       <workItem from="1677737551490" duration="148000" />
       <workItem from="1677753929090" duration="7454000" />
-      <workItem from="1677765170733" duration="611000" />
+      <workItem from="1677765170733" duration="1113000" />
+      <workItem from="1677828366229" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -462,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677676797558</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Tarea programacion: actualizando clase Lista con nueva interfaz pila e implementacion de sus metodos">
+      <created>1677771329780</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771329780</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +524,8 @@
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Updated README.md" />
     <MESSAGE value="Oracle: Java SE 8 activity guide &#10; - Lesson 11-2: Working with LocalDateTime." />
     <MESSAGE value="Tarea programacion: encolar y desencolar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: encolar y desencolar." />
+    <MESSAGE value="Tarea programacion: actualizando clase Lista con nueva interfaz pila e implementacion de sus metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: actualizando clase Lista con nueva interfaz pila e implementacion de sus metodos" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
