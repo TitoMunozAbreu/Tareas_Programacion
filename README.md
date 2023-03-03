@@ -14,4 +14,5 @@ Created new repository.
      - 9) Soccer League App by Oracle Java SE8 [Soccer League](src/SoccerLeague)
      - 10) Updated [Tarea Hospital](src/Hospital)
      - 11) [Encolar/Desncolar](src/Lista)
+     - 12) [Ikea](src/Ikea)
 

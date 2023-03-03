@@ -20,7 +20,7 @@ public class Mueble extends ProductoHogar{
 
     @Override
     public String toString() {
-        return "Mueble:" + "\n" +
+        return "\n" + "Mueble:" + "\n" +
                 super.toString() + "\n" +
                 "tipoMueble = " + this.getTipoMueble() + "\n";
     }

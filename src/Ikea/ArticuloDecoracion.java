@@ -10,7 +10,7 @@ public class ArticuloDecoracion extends ProductoHogar{
 
     @Override
     public String toString() {
-        return "Articulo Decoracion:" + "\n" +
+        return "\n" + "Articulo Decoracion:" + "\n" +
                 super.toString() + "\n";
     }
 }

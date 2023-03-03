@@ -41,6 +41,6 @@ public abstract class Producto {
     public String toString() {
         return  "Nombre = " + this.getNombre() + "\n" +
                 "descripcion = " + this.getDescripcion() + "\n" +
-                "precio = " + this.getPrecio() + "\n";
+                "precio = " + this.getPrecio();
     }
 }

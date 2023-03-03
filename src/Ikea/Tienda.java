@@ -7,16 +7,16 @@ public class Tienda {
 
 
     public Tienda() {
-        this.productos = new Producto [0];
+        this.productos = new Producto[0];
     }
 
     public Producto[] agregarProducto(Producto p){
         //Creamos un nuevo array tipo producto
         Producto[] newProductos = new Producto[productos.length + 1];
         //Copiamos los elementos del anterior array al nuevo
-        System.arraycopy(productos,0,newProductos,0,newProductos.length);
+        System.arraycopy(productos,0,newProductos,0,productos.length);
         //Guardar el nuevo producto en el array
-        newProductos[productos.length-1] = p;
+        newProductos[newProductos.length-1] = p;
         //Actualizar el array de la clase
         this.setProductos(newProductos);
 

@@ -21,6 +21,6 @@ public abstract class ProductoHogar extends Producto{
     @Override
     public String toString() {
         return super.toString() + "\n" +
-                "tipoMaterial = " + this.getTipoMaterial() + "\n";
+                "tipoMaterial = " + this.getTipoMaterial();
     }
 }
