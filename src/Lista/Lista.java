@@ -1,9 +1,11 @@
 package Lista;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Lista implements Cola, Pila {
     Integer[] tabla;
+    int contador = 0;
 
     public Lista() {
         tabla = new Integer[0];
@@ -47,17 +49,6 @@ public class Lista implements Cola, Pila {
 
     @Override
     public Integer[] desapilar() {
-        /*
-        Integer[] tablaUpdate = new Integer[tabla.length-1];
-        //copiar en la nueva tabla la vieja tabla desde la posicion 1
-        for (int i = 0; i < tablaUpdate.length; i++) {
-            tablaUpdate[i] = tabla[i+1];
-        }
-        this.tabla = tablaUpdate;
-
-         */
-
-        /* OPCION QUE FALTA MEJORAR para usar el metodo Arrays.copyOf*/
         Integer[] tablaUpdated = new Integer[tabla.length-1];
         System.arraycopy(tabla, 1, tablaUpdated, 0, tablaUpdated.length);
         this.tabla = tablaUpdated;
@@ -65,33 +56,34 @@ public class Lista implements Cola, Pila {
 
     }
 
+    public void introducirNumerosCola(){
+        Scanner sc = new Scanner(System.in);
+        int n = 0;
 
 
+        do {
+            System.out.print("Introducir numero a la cola: ");
+            n = sc.nextInt();
+            if(n >= 0){
+                this.encolamos(n);
+                contador++;
+            }else{
+                sc.close();
+                System.out.println(Arrays.toString(this.tabla) + "\n");
+            }
 
-
-    public static void main(String[] args) {
-        Lista lista = new Lista();
-        lista.encolamos(5);
-        lista.encolamos(6);
-        lista.encolamos(7);
-        lista.encolamos(8);
-        lista.encolamos(9);
-
-        System.out.println(Arrays.toString(lista.tabla));
-        lista.desencolamos();
-
-        System.out.println(Arrays.toString(lista.tabla));
-
-        lista.apilar(1);
-
-        System.out.println(Arrays.toString(lista.tabla));
-
-        lista.desapilar();
-
-        System.out.println(Arrays.toString(lista.tabla));
-
-
+        }while (n >= 0);
     }
+    public void desencolarTodos(){
+        System.out.println(" ** Desencolando la cola ** \n");
 
+        while (contador > 0){
+            this.desencolamos();
+            System.out.println(Arrays.toString(this.tabla));
+            contador--;
+        }
+
+        System.out.println(" ** Cola desencolada ** \n");
+    }
 
 }
