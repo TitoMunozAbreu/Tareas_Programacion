@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: updated IKEA">
-      <change afterPath="$PROJECT_DIR$/src/Warriors/Arquero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warriors/Guerrero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warriors/Mago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warriors/Personaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warriors/WarriorLegue.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Examen programacion: Warriors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warriors/WarriorLegue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warriors/WarriorLegue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +258,7 @@
       <workItem from="1677765170733" duration="1113000" />
       <workItem from="1677828366229" duration="3312000" />
       <workItem from="1677920317888" duration="83000" />
-      <workItem from="1678099068830" duration="5044000" />
+      <workItem from="1678099068830" duration="5918000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -503,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677831375828</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Examen programacion: Warriors">
+      <created>1678105224575</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678105224575</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated package BilleteOculto and Biblioteca" />
     <MESSAGE value="Updated: Tarea diagrama de clases VideoClub" />
     <MESSAGE value="Updated: Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
@@ -547,7 +548,8 @@
     <MESSAGE value="Tarea programacion: actualizando clase Lista con nueva interfaz pila e implementacion de sus metodos" />
     <MESSAGE value="Tarea programacion: IKEA" />
     <MESSAGE value="Tarea programacion: updated IKEA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: updated IKEA" />
+    <MESSAGE value="Examen programacion: Warriors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Examen programacion: Warriors" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

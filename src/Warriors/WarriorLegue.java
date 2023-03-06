@@ -29,6 +29,14 @@ public class WarriorLegue {
         //a1 defiende
         a1.defender();
 
+        if(m1.equals(m2)){
+            System.out.println("Es el mismo mago");
+        }else {
+            System.out.println("No es el mismo mago");
+        }
+
+
+
 
 
 
