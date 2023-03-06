@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: IKEA">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: updated IKEA">
+      <change afterPath="$PROJECT_DIR$/src/Warriors/Arquero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warriors/Guerrero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warriors/Mago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warriors/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warriors/WarriorLegue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/ArticuloDecoracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/ArticuloDecoracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/Mueble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/ProductoHogar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/ProductoHogar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ikea/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ikea/Tienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +102,11 @@
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Fecha_Entrega.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Reporte.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Test.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Warriors/Arquero.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Warriors/Guerrero.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Warriors/Mago.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Warriors/Personaje.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Warriors/WarriorLegue.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,20 +141,7 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ikea.Test">
-    <configuration name="GestionVehiculos.Test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GestionVehiculos.Test.Test" />
-      <module name="Tareas_Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GestionVehiculos.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WarriorLegue">
     <configuration name="Ikea.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ikea.Test" />
       <module name="Tareas_Programacion" />
@@ -203,13 +194,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarriorLegue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Warriors.WarriorLegue" />
+      <module name="Tareas_Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Warriors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WarriorLegue" />
         <item itemvalue="Application.Ikea.Test" />
         <item itemvalue="Application.Lista" />
         <item itemvalue="Application.League" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.GestionVehiculos.Test.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +261,9 @@
       <workItem from="1677737551490" duration="148000" />
       <workItem from="1677753929090" duration="7454000" />
       <workItem from="1677765170733" duration="1113000" />
-      <workItem from="1677828366229" duration="2934000" />
+      <workItem from="1677828366229" duration="3312000" />
+      <workItem from="1677920317888" duration="83000" />
+      <workItem from="1678099068830" duration="5044000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -490,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677830093243</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Tarea programacion: updated IKEA">
+      <created>1677831375828</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831375828</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +546,8 @@
     <MESSAGE value="Tarea programacion: encolar y desencolar." />
     <MESSAGE value="Tarea programacion: actualizando clase Lista con nueva interfaz pila e implementacion de sus metodos" />
     <MESSAGE value="Tarea programacion: IKEA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: IKEA" />
+    <MESSAGE value="Tarea programacion: updated IKEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: updated IKEA" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
