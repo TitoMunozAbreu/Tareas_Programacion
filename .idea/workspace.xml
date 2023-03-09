@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Listar numeros por teclado para la cola">
-      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/Llamada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/ZonaInterlocutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Compañia de Telecomunicaciones">
       <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Personas/Azafato.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Personas/Idioma.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Personas/Pasajero.java" root0="SKIP_INSPECTION" />
@@ -269,7 +265,7 @@
       <workItem from="1678120430505" duration="182000" />
       <workItem from="1678177029392" duration="8000" />
       <workItem from="1678342170934" duration="10970000" />
-      <workItem from="1678360477859" duration="15106000" />
+      <workItem from="1678360477859" duration="15413000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -530,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678107279244</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Tarea programacion: Compañia de Telecomunicaciones">
+      <created>1678386030000</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678386030000</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated: Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
     <MESSAGE value="Updated: Tarea Empresa" />
@@ -574,7 +576,8 @@
     <MESSAGE value="Tarea programacion: updated IKEA" />
     <MESSAGE value="Examen programacion: Warriors" />
     <MESSAGE value="Tarea programacion: Listar numeros por teclado para la cola" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Listar numeros por teclado para la cola" />
+    <MESSAGE value="Tarea programacion: Compañia de Telecomunicaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Compañia de Telecomunicaciones" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

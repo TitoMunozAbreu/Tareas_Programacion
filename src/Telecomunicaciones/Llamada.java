@@ -60,10 +60,10 @@ public class Llamada implements Comparable<Llamada> {
         //Comprobar que la llamada esSaliente
         if (esSaliente) {
             //Recorrer la clave de las zonas
-            for (ZonaInterlocutor zona : keys) {
+            for (ZonaInterlocutor z : keys) {
                 //Comprobar que la clave coincida con la zona de la llamada realizada
-                if (zona.equals(zona)) {
-                    calcularCoste = zonaTarifas.get(zona) * duracionMinutos();
+                if (z.equals(this.zona)) {
+                    calcularCoste = zonaTarifas.get(z) * duracionMinutos();
                 }
             }
         } else {
