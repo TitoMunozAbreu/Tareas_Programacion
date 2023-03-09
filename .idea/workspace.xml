@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Examen programacion: Warriors">
-      <change afterPath="$PROJECT_DIR$/src/Lista/Test.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Listar numeros por teclado para la cola">
+      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/Llamada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Telecomunicaciones/ZonaInterlocutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
     </list>
@@ -90,6 +92,9 @@
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/PlayerDatabase.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Telecomunicaciones/Llamada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Telecomunicaciones/ZonaInterlocutor.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Alquiler_pelicula.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Bono.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/VideoClub/Cabecera.java" root0="SKIP_INSPECTION" />
@@ -138,26 +143,13 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lista.Test">
+  <component name="RunManager" selected="Application.TestLlamadas">
     <configuration name="Ikea.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ikea.Test" />
       <module name="Tareas_Programacion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ikea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="League" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SoccerLeague.soccer.League" />
-      <module name="Tareas_Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SoccerLeague.soccer.utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,6 +183,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLlamadas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Telecomunicaciones.TestLlamadas" />
+      <module name="Tareas_Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Telecomunicaciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WarriorLegue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Warriors.WarriorLegue" />
       <module name="Tareas_Programacion" />
@@ -206,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLlamadas" />
         <item itemvalue="Application.Lista.Test" />
         <item itemvalue="Application.WarriorLegue" />
         <item itemvalue="Application.Ikea.Test" />
         <item itemvalue="Application.Lista" />
-        <item itemvalue="Application.League" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +265,11 @@
       <workItem from="1677765170733" duration="1113000" />
       <workItem from="1677828366229" duration="3312000" />
       <workItem from="1677920317888" duration="83000" />
-      <workItem from="1678099068830" duration="7195000" />
+      <workItem from="1678099068830" duration="7503000" />
+      <workItem from="1678120430505" duration="182000" />
+      <workItem from="1678177029392" duration="8000" />
+      <workItem from="1678342170934" duration="10970000" />
+      <workItem from="1678360477859" duration="15106000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -514,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678105901658</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Tarea programacion: Listar numeros por teclado para la cola">
+      <created>1678107279244</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1678107279244</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated: Tarea diagrama de clases VideoClub" />
     <MESSAGE value="Updated: Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
@@ -558,14 +573,14 @@
     <MESSAGE value="Tarea programacion: IKEA" />
     <MESSAGE value="Tarea programacion: updated IKEA" />
     <MESSAGE value="Examen programacion: Warriors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Examen programacion: Warriors" />
+    <MESSAGE value="Tarea programacion: Listar numeros por teclado para la cola" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Listar numeros por teclado para la cola" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
-        <watch expression="t1.sueldo" />
-        <watch expression="lista.tabla" />
-        <watch expression="lista.tabla" language="JAVA" />
+        <watch expression="inicio.time" />
+        <watch expression="fin.time" />
       </configuration>
     </watches-manager>
   </component>

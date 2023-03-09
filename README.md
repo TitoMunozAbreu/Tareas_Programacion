@@ -16,3 +16,4 @@ Created new repository.
      - 11) [Encolar/Desncolar](src/Lista)
      - 12) [Ikea](src/Ikea)
      - 13) [Warriors](src/Warriors)
+     - 14) [Telecomunicaciones](src/Telecomunicaciones)
