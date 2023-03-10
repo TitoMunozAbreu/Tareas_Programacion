@@ -13,6 +13,14 @@ public class TestLlamadas {
         Llamada l4 = new Llamada(4,9,LocalDateTime.now(),LocalDateTime.now().plusHours(4),true,ZonaInterlocutor.CHN);
         Llamada l5 = new Llamada(5,10,LocalDateTime.now(),LocalDateTime.now().plusHours(5),true,ZonaInterlocutor.VEN);
 
+        Llamada[] arrayLlamadas = {l5,l4,l3,l2,l1};
+
+        Arrays.sort(arrayLlamadas);
+
+        System.out.println(Arrays.deepToString(arrayLlamadas));
+
+
+
         //Almacenando las llamadas: unsorted ArrayList
         ArrayList<Llamada> llamadas = new ArrayList<>();
         llamadas.add(l5);
@@ -22,8 +30,7 @@ public class TestLlamadas {
         llamadas.add(l1);
 
         //Collections.sort(llamadas);
-
-
+        //System.out.println(llamadas);
         /*
         //Almacenando las llamadas: sorted TreeSet
         Set<Llamada> llamadas = new TreeSet<>();
@@ -43,8 +50,6 @@ public class TestLlamadas {
 
 
         System.out.println(llamadas);
-
-
 
 
     }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Compañia de Telecomunicaciones">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Updated Compañia de Telecomunicaciones">
+      <change afterPath="$PROJECT_DIR$/src/Lista/ColaDoble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,6 +84,7 @@
     <setting file="file://$PROJECT_DIR$/src/Ikea/Tienda.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Ikea/TipoMaterial.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Cola.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Lista/ColaDoble.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Lista.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Pila.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Test.java" root0="SKIP_INSPECTION" />
@@ -265,7 +269,8 @@
       <workItem from="1678120430505" duration="182000" />
       <workItem from="1678177029392" duration="8000" />
       <workItem from="1678342170934" duration="10970000" />
-      <workItem from="1678360477859" duration="15413000" />
+      <workItem from="1678360477859" duration="15589000" />
+      <workItem from="1678433064450" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -533,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678386030000</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Tarea programacion: Updated Compañia de Telecomunicaciones">
+      <created>1678386271133</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1678386271133</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +564,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated: Actualizar comentarios en la Tarea de Empresa Mensajeria" />
     <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
     <MESSAGE value="Updated: Tarea Empresa" />
     <MESSAGE value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
@@ -577,7 +588,8 @@
     <MESSAGE value="Examen programacion: Warriors" />
     <MESSAGE value="Tarea programacion: Listar numeros por teclado para la cola" />
     <MESSAGE value="Tarea programacion: Compañia de Telecomunicaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Compañia de Telecomunicaciones" />
+    <MESSAGE value="Tarea programacion: Updated Compañia de Telecomunicaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Updated Compañia de Telecomunicaciones" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
