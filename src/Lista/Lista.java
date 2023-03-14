@@ -3,7 +3,7 @@ package Lista;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lista implements Cola, Pila {
+public class Lista implements Cola, Pila, ColaDoble{
     Integer[] tabla;
     int contador = 0;
 
@@ -59,7 +59,6 @@ public class Lista implements Cola, Pila {
     public void introducirNumerosCola(){
         Scanner sc = new Scanner(System.in);
         int n = 0;
-
 
         do {
             System.out.print("Introducir numero a la cola: ");

@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/src/Lista/ColaDoble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Telecomunicaciones/TestLlamadas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +269,13 @@
       <workItem from="1678177029392" duration="8000" />
       <workItem from="1678342170934" duration="10970000" />
       <workItem from="1678360477859" duration="15589000" />
-      <workItem from="1678433064450" duration="3867000" />
+      <workItem from="1678433064450" duration="4055000" />
+      <workItem from="1678525814600" duration="293000" />
+      <workItem from="1678697047520" duration="8000" />
+      <workItem from="1678699070778" duration="19000" />
+      <workItem from="1678710562645" duration="659000" />
+      <workItem from="1678739606446" duration="1971000" />
+      <workItem from="1678782027774" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -545,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678386271133</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Tarea programacion: Updated Compañia de Telecomunicaciones">
+      <created>1678441191385</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1678441191385</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
