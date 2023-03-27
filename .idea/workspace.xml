@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Tarea programacion: Updated Compañia de Telecomunicaciones">
-      <change afterPath="$PROJECT_DIR$/src/Lista/ColaDoble.java" afterDir="false" />
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Updated Lista.java">
+      <change afterPath="$PROJECT_DIR$/src/Prueba_Interfaz/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prueba_Interfaz/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prueba_Interfaz/ListaAlumnos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prueba_Interfaz/TestAlumno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lista/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
+        <option value="UML Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,6 +94,10 @@
     <setting file="file://$PROJECT_DIR$/src/Lista/Lista.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Pila.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lista/Test.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Prueba_Interfaz/Alumno.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Prueba_Interfaz/Cola.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Prueba_Interfaz/ListaAlumnos.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Prueba_Interfaz/TestAlumno.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/Game.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/soccer/League.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/SoccerLeague/utility/GameUtils.java" root0="SKIP_INSPECTION" />
@@ -123,6 +134,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -142,7 +154,7 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLlamadas">
+  <component name="RunManager" selected="Application.TestAlumno">
     <configuration name="Ikea.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ikea.Test" />
       <module name="Tareas_Programacion" />
@@ -156,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lista.Lista" />
+    <configuration name="Lista.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lista.Test" />
       <module name="Tareas_Programacion" />
       <extension name="coverage">
         <pattern>
@@ -169,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lista.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lista.Test" />
+    <configuration name="TestAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prueba_Interfaz.TestAlumno" />
       <module name="Tareas_Programacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lista.*" />
+          <option name="PATTERN" value="Prueba_Interfaz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAlumno" />
         <item itemvalue="Application.TestLlamadas" />
         <item itemvalue="Application.Lista.Test" />
         <item itemvalue="Application.WarriorLegue" />
         <item itemvalue="Application.Ikea.Test" />
-        <item itemvalue="Application.Lista" />
       </list>
     </recent_temporary>
   </component>
@@ -276,6 +288,20 @@
       <workItem from="1678710562645" duration="659000" />
       <workItem from="1678739606446" duration="1971000" />
       <workItem from="1678782027774" duration="1410000" />
+      <workItem from="1678793525069" duration="38000" />
+      <workItem from="1678796436116" duration="15000" />
+      <workItem from="1679417660590" duration="85000" />
+      <workItem from="1679686814655" duration="445000" />
+      <workItem from="1679687290489" duration="108000" />
+      <workItem from="1679687418276" duration="121000" />
+      <workItem from="1679687817990" duration="216000" />
+      <workItem from="1679823136038" duration="10000" />
+      <workItem from="1679851448875" duration="1043000" />
+      <workItem from="1679852553808" duration="6000" />
+      <workItem from="1679852600484" duration="51000" />
+      <workItem from="1679853191380" duration="1369000" />
+      <workItem from="1679910225187" duration="15000" />
+      <workItem from="1679910572385" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -557,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678441191385</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Updated Lista.java">
+      <created>1678793551039</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1678793551039</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated: Modificaciones en la clase Repartidor y EmpresaMensajeria." />
     <MESSAGE value="Updated: Tarea Empresa" />
     <MESSAGE value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
     <MESSAGE value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
@@ -601,7 +633,8 @@
     <MESSAGE value="Tarea programacion: Listar numeros por teclado para la cola" />
     <MESSAGE value="Tarea programacion: Compañia de Telecomunicaciones" />
     <MESSAGE value="Tarea programacion: Updated Compañia de Telecomunicaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea programacion: Updated Compañia de Telecomunicaciones" />
+    <MESSAGE value="Updated Lista.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Lista.java" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
