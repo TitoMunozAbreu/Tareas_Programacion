@@ -1,5 +1,8 @@
 package Banda_Rock;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Musico {
     private String nombre;
     private String dni;
