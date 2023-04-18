@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="Prueba Tema 8: Interfaces">
+    <list default="true" id="9fa86e65-33c7-4f98-adee-56514901360d" name="Changes" comment="updated banda de rock">
+      <change afterPath="$PROJECT_DIR$/socios.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/GestionSocios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/exceptions/DatosIngresadosMal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/exceptions/SocioExiste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppGestionSocios/exceptions/SocioNoExiste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Banda_Rock/Musico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banda_Rock/Musico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Banda_Rock/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banda_Rock/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,12 @@
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Personas/Trabajador.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Test/Test.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Aeropuerto/Vuelos/Vuelo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/App.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/GestionSocios.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/Socio.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/exceptions/DatosIngresadosMal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/exceptions/SocioExiste.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/AppGestionSocios/exceptions/SocioNoExiste.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Banda.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Disponibilidad.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Banda_Rock/Instrumento.java" root0="SKIP_INSPECTION" />
@@ -151,7 +163,20 @@
       <recent name="C:\Users\34618\IdeaProjects\Tareas_Programacion\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppGestionSocios.App" />
+      <module name="Tareas_Programacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppGestionSocios.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lista.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lista.Test" />
       <module name="Tareas_Programacion" />
@@ -204,26 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarriorLegue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Warriors.WarriorLegue" />
-      <module name="Tareas_Programacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Warriors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestAlumno" />
         <item itemvalue="Application.TestLlamadas" />
         <item itemvalue="Application.Lista.Test" />
-        <item itemvalue="Application.WarriorLegue" />
       </list>
     </recent_temporary>
   </component>
@@ -304,6 +316,9 @@
       <workItem from="1680006758243" duration="1201000" />
       <workItem from="1680703805327" duration="236000" />
       <workItem from="1680977981121" duration="112000" />
+      <workItem from="1681065751692" duration="91000" />
+      <workItem from="1681727844036" duration="11091000" />
+      <workItem from="1681796992269" duration="21086000" />
     </task>
     <task id="LOCAL-00001" summary="Updated package BilleteOculto and Biblioteca">
       <created>1675681743137</created>
@@ -599,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679915689167</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated banda de rock">
+      <created>1681065825151</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1681065825151</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +640,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated: Actualizando la funcionalidad de los metodos insertar y eliminar de la clase BDDpersonas. Asi como actualizar el main y documentar las clases" />
     <MESSAGE value="Gestion de Vehiculos by ChatGPT: So far I created the classes and named the methods." />
     <MESSAGE value="Examen Prueba 6: Banda de Rock." />
     <MESSAGE value="Tarea Aeropuerto" />
@@ -643,7 +664,8 @@
     <MESSAGE value="Tarea programacion: Updated Compañia de Telecomunicaciones" />
     <MESSAGE value="Updated Lista.java" />
     <MESSAGE value="Prueba Tema 8: Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba Tema 8: Interfaces" />
+    <MESSAGE value="updated banda de rock" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated banda de rock" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
